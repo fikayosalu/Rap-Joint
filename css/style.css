@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+background-color: black;
+
+background-image: url(https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029_960_720.jpg);
+background-size: cover;
+}
+form{
+  margin: 0 auto;
+  width: fit-content;
+  background: linear-gradient(45deg,rgb(223, 108, 108),rgb(194, 54, 54),rgb(114, 13, 13));
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  color: bisque;
+
+
+}
+
+.heading{
+  margin: 50px;
+  display: flex;
+  align-items: baseline;
+  padding-top: 20px;
+}
+
+label{
+  text-align: left;
+  margin: 5px;
+}
+
+
+input{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  margin-bottom: 10px;
+  border: none;
+  background: none;
+  border-bottom: 2px solid bisque;
+  width:80%;
+  outline: none;
+  color:black;
+  font-size: 1.2rem;
+  text-transform:uppercase;
+  text-align: left;
+}
+
+::placeholder{
+  color: beige;
+  font-size: 1rem;
+  text-align: left;
+opacity: 0.6;
+}
+
+.checkbox{
+  display: flex;
+  flex-direction: row;
+}
+
+.submit-btn{
+  border: none;
+  background-color: rgb(104, 21, 21);
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.submit-btn:hover{
+background-color: transparent;
+border: 2px solid white;
+cursor: pointer;
+color: white;
+}
+
+#log-in{
+  text-align: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding-top: 20px;
+}
+
+#log-in:hover{
+color: rgb(133, 49, 18);
+}
+
+.cancel{
+  position: absolute;
+  right: 435px;
+  font-size: larger;
+  font-weight: 100;
+  font-stretch: expanded;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 15px 10px 15px;
+  color: red;
+}
+
+.cancel:hover{
+  position: absolute;
+  right: 435px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: beige;
+  
+}
